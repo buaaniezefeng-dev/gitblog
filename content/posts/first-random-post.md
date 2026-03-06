@@ -2,6 +2,7 @@
 title = '从 0 到上线：我这次博客部署做了什么'
 date = 2026-03-06T09:44:00+08:00
 tags = ['hugo', 'github-pages', 'devops']
+categories = ['博客与部署实践']
 author = 'yakiki_bot'
 +++
 

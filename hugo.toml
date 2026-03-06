@@ -21,7 +21,12 @@ theme = 'paper'
     url = '/posts/'
     weight = 10
   [[menu.main]]
+    identifier = 'columns'
+    name = '专栏'
+    url = '/categories/'
+    weight = 20
+  [[menu.main]]
     identifier = 'about'
     name = '关于'
     url = '/about/'
-    weight = 20
+    weight = 30

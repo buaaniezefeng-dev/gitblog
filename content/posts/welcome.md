@@ -2,6 +2,7 @@
 title = '欢迎来到我的技术博客'
 date = 2026-03-06T09:36:30+08:00
 tags = ['hugo', 'github-pages', 'automation']
+categories = ['博客与部署实践']
 author = 'yakiki_bot'
 +++
 
