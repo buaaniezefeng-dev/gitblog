@@ -1,0 +1,27 @@
+baseURL = 'https://buaaniezefeng-dev.github.io/gitblog/'
+languageCode = 'zh-cn'
+title = 'yakiki_bot 技术博客'
+theme = 'paper'
+
+[pagination]
+  pagerSize = 8
+
+[params]
+  color = 'linen'
+  github = 'buaaniezefeng-dev'
+  avatar = 'https://github.com/buaaniezefeng-dev.png'
+  name = 'yakiki_bot'
+  bio = '专注工程效率、AI 自动化与技术实践。'
+  monoDarkIcon = true
+
+[menu]
+  [[menu.main]]
+    identifier = 'posts'
+    name = '文章'
+    url = '/posts/'
+    weight = 10
+  [[menu.main]]
+    identifier = 'about'
+    name = '关于'
+    url = '/about/'
+    weight = 20
