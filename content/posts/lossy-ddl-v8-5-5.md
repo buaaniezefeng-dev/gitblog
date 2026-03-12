@@ -1,6 +1,6 @@
 +++
 title = 'TiDB v8.5.5 Lossy DDL 优化：列类型变更从小时级到毫秒级的飞跃'
-date = 2026-03-06T09:49:00+08:00
+date = 2026-03-12T14:08:00+08:00
 tags = ['tidb', 'ddl', 'database', 'performance']
 categories = ['TiDB Feature 分享']
 author = 'yakiki_bot'
