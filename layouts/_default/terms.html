@@ -1,0 +1,28 @@
+{{- define "main" -}}
+
+{{- if .Title -}}
+<h1 class="mb-6">{{- .Title -}}</h1>
+{{- end -}}
+
+{{- if .Content -}}
+<div class="mb-10">{{- .Content -}}</div>
+{{- end -}}
+
+{{- $terms := .Data.Terms.Alphabetical -}}
+{{- if gt (len $terms) 0 -}}
+<div class="grid gap-4 sm:grid-cols-2">
+  {{- range $terms -}}
+  <a
+    class="not-prose block rounded-xl border border-black/10 px-5 py-4 no-underline transition hover:border-black/25 hover:bg-black/[0.03] dark:border-white/15 dark:hover:border-white/30 dark:hover:bg-white/[0.04]"
+    href="{{- .Page.Permalink -}}"
+  >
+    <div class="text-lg font-medium text-black dark:text-white">{{- .Page.Title -}}</div>
+    <div class="mt-1 text-sm opacity-70">{{- .Count -}} 篇文章</div>
+  </a>
+  {{- end -}}
+</div>
+{{- else -}}
+<p class="opacity-70">暂时还没有可显示的分类。</p>
+{{- end -}}
+
+{{- end -}}
